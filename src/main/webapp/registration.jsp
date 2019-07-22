@@ -25,7 +25,7 @@
                         <span class="glyphicon glyphicon-user"></span> <strong>REGISTRATION SYSTEM</strong>
                     </div>
                     <div class="panel-body">
-                        <form class="form-horizontal" action="registration" >
+                        <form name="formRegistration" class="form-horizontal" action="<%=request.getContextPath()%>/registration" method="post">
 
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="username">User name:</label>
@@ -87,7 +87,7 @@
                             </div> -->
                             <div class="form-group">
                                 <div class="col-sm-offset-2 col-sm-10">
-                                    <button type="submit" class="btn btn-primary">Registration</button>
+                                    <input type="submit" value="Registration" name="Registration">
                                 </div>
                             </div>
                         </form>

@@ -25,7 +25,7 @@
                         <span class="glyphicon glyphicon-log-in"></span> <strong>LOGIN SYSTEM</strong>
                     </div>
                     <div class="panel-body">
-                        <form name="loginForm" action="<%=request.getContextPath()%>/login" class="form-horizontal" method = "post"/">
+                        <form name="loginForm" action="<%=request.getContextPath()%>/login" class="form-horizontal" method = "post">
                             <div class="form-group">
                                 <label class="control-label col-sm-2" for="username">User name:</label>
                                 <div class="col-sm-10">
